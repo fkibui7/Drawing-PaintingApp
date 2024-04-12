@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DrawingApp</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -50,10 +51,12 @@
                 <label class="title">Colors</label>
                 <ul class="options">
                    <li class="option"></li>
+                   <li class="option selected"></li>
                    <li class="option"></li>
                    <li class="option"></li>
-                   <li class="option"></li>
-                   <li class="option"></li>
+                   <li class="option">
+                    <input type="color" id="color-picker" value="#4a98f7">
+                   </li>
                 </ul>
             </div>
             <div class="row buttons">
